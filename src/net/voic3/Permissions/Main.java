@@ -11,7 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin implements Listener{
 
 
-    public void onEnable() {
+    public void onEnable()  {
         SettingsManager.getInstance().setup(this);
 
         getCommand("perms").setExecutor(new CommandManager());
