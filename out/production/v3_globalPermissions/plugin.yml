@@ -1,0 +1,14 @@
+name: Voic3_Permissions
+version: 1.0
+main: net.voic3.Permissions.Main
+author: 152cooperR
+description: A permissions plugin.
+
+commands:
+    perms:
+        description: Voic3 Command
+
+permissions:
+    perms.admin:
+        description: Allow use of permissions commands.
+        default: false
